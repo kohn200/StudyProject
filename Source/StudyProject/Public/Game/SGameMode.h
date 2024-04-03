@@ -17,7 +17,8 @@ class STUDYPROJECT_API ASGameMode : public AGameModeBase
 public:
 	ASGameMode();
 
-	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
+#pragma region TEST
+	/*virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
 
 	virtual void InitGameState() override;
 
@@ -27,5 +28,8 @@ public:
 
 	virtual APlayerController* Login(UPlayer* NewPlayer, ENetRole InRemoteRole, const FString& Portal, const FString& Options, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage) override;
 
-	virtual void PostLogin(APlayerController* NewPlayer) override;
+	virtual void PostLogin(APlayerController* NewPlayer) override;*/
+#pragma endregion
+
+
 };
